@@ -1,8 +1,6 @@
 @media (min-width:0){
     body{
         background-color: #171719;
-		width:100%;
-		overflow-x:hidden;
     }
 
     /*bootstrap reset*/
