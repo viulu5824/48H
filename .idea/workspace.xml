@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e82f4f-52e1-4f28-9583-a9cebf538451" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/48hours.css" afterPath="$PROJECT_DIR$/css/48hours.css" />
-    </list>
+    <list default="true" id="33e82f4f-52e1-4f28-9583-a9cebf538451" name="默认的" comment="" />
     <ignored path="48H.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="48hours.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/48hours.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06422018">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.12844037">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -192,8 +190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/48hours.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06422018">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.12844037">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
