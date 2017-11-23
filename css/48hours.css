@@ -1,4 +1,7 @@
 @media (min-width:0){
+    html{
+        overflow-x:hidden;
+    }
     body{
         background-color: #171719;
 		width:100%;
