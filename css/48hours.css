@@ -1,11 +1,6 @@
 @media (min-width:0){
-    html{
-        overflow-x:hidden;
-    }
     body{
         background-color: #171719;
-		width:100%;
-		overflow-x:hidden;
     }
 
     /*bootstrap reset*/
@@ -22,7 +17,7 @@
     [class^="csjContest"] .container .head{
         width: 100%;
         position: relative;
-        margin-top:  35px;
+        margin-top:  5px;
     }
     [class^="csjContest"] .container .head img{
         width: 180%;
@@ -104,6 +99,9 @@
     .intro-head-swiper .swiper-slide img{
         width: 100%;
     }
+    .intro-head-swiper .swiper-slide{
+        padding: 0 2px;
+    }
     /*intro end*/
 
     /*area start*/
@@ -111,10 +109,10 @@
         text-align: center;
     }
     .csjContest-area .row>div{
-        margin-top:30px;
+        padding: 0;
     }
     .csjContest-area .row>div>img{
-        width: 80%;
+        width: 100%;
     }
     /*area end*/
 
@@ -189,10 +187,10 @@
     /*video start*/
     .csjContest-video .container{
         background: #222126;
-        padding: 50px 35px;
+        padding: 14px 35px;
     }
     .csjContest-video .container .row>div{
-        padding: 0 10px;
+        padding: 2px;
     }
     .csjContest-video .title-box{
         color: #fff;
@@ -211,11 +209,11 @@
         padding: 0 30px;
     }
     .csjContest-video .video-box{
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .csjContest-video .video-box .img-box{
         width: 100%;
-        height: 150px;
+        height: 130px;
         position: relative;
         cursor: pointer;
     }
@@ -283,7 +281,7 @@
     .csjContest-news .news-box .img-box .mask-bar{
         background-color: rgba(255,255,255,.6);
         padding: 5px;
-        color: #fff;
+        color: #000;
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -382,6 +380,7 @@
     }
     .csjContest-footer .code-box .img-box{
         max-width: 116px;
+        margin-bottom: 5px;
     }
     .csjContest-footer .code-box .img-box img{
         width: 100%;

@@ -102,6 +102,7 @@ window.onload = function () {
     } else {
         $(".csjContest-nav").removeClass("navbar-fixed-top");
         $(".csjContest-video .row").find(".title-box").prependTo(".csjContest-video .row");
+        $(".csjContest-footer").find(".code-box p").appendTo(".code-box");
         var mySwiper2 = new Swiper(".intro-head-swiper", {
             loop:true,
             autoplay:5000,
