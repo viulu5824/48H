@@ -100,9 +100,10 @@ window.onload = function () {
         mySwiper2.params.control = mySwiper1;
         mySwiper1.params.control = mySwiper2;
     } else {
-        $(".csjContest-nav").removeClass("navbar-fixed-top");
+        // $(".csjContest-nav").removeClass("navbar-fixed-top");
         $(".csjContest-video .row").find(".title-box").prependTo(".csjContest-video .row");
         $(".csjContest-footer").find(".code-box p").appendTo(".code-box");
+        $(".csjContest-footer").find(".copyRight").appendTo(".phone-copyRight")
         var mySwiper2 = new Swiper(".intro-head-swiper", {
             loop:true,
             autoplay:4000,

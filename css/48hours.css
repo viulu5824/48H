@@ -10,10 +10,15 @@
     .navbar-default{
         border:none;
         margin-bottom: 0;
+        background-color:rgba(248,248,248,.3);
     }
-    .navbar-nav>li>a{
+    .navbar-default .navbar-nav>li>a{
         padding-top: 25px;
         padding-bottom: 25px;
+        color: #fff;
+    }
+    .navbar-default .navbar-nav>li>a:focus{
+        color: #F7585B;
     }
 
     /*model css*/
@@ -54,6 +59,7 @@
         transition:all 0.36s ease-in-out;
         font-size: 14px;
         padding:12px 15px;
+        text-align: right;
     }
 
 
@@ -130,7 +136,7 @@
 
     /*awards*/
     .csjContest-awards .content>div{
-        padding: 0 30px;
+        padding: 0 20px;
         margin-bottom: 10px;
     }
     .csjContest-awards .content h3{
@@ -348,6 +354,7 @@
     }
     .csjContest-footer .connectUs-left{
         padding-left: 80px;
+        margin-bottom: 0;
     }
     .csjContest-footer .connectUs-left dt{
         font-size:24px;
@@ -409,7 +416,6 @@
 
     /*nav*/
     .csjContest-nav{
-        transition:all .36s ease-in-out;
         height: 70px;
     }
     .csjContest-nav.scroll-nav{
@@ -433,6 +439,7 @@
         color: #fff;
         font-size: 16px;
         padding: 25px 19px;
+        text-align: left;
     }
     .csjContest-nav .navbar-right li>a:hover{
         color: #31b0d5;
@@ -547,6 +554,9 @@
     }
     .csjContest-footer .footer-right{
         float: right;
+    }
+    .csjContest-footer .connectUs-left{
+        margin-bottom: 20px;
     }
     .csjContest-footer .connectUs-left dd.block{
         width: 40px;
