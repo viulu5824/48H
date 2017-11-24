@@ -47,7 +47,7 @@ window.onload = function () {
     ]
 
     var oldSwiper = new Swiper('.older-swiper', {
-        autoplay: 5000,//
+        autoplay:4000,
         prevButton: '.swiper-button-prev',
         nextButton: '.swiper-button-next',
         onTransitionStart: function (swiper) {
@@ -68,7 +68,7 @@ window.onload = function () {
             
         })
         var mySwiper1 = new Swiper(".intro-swiper", {
-            //autoplay: 5000,
+            autoplay: 4000,
             prevButton: '.swiper-button-prev',
             nextButton: '.swiper-button-next',
             slidesPerView: "auto",
@@ -105,7 +105,7 @@ window.onload = function () {
         $(".csjContest-footer").find(".code-box p").appendTo(".code-box");
         var mySwiper2 = new Swiper(".intro-head-swiper", {
             loop:true,
-            autoplay:5000,
+            autoplay:4000,
             slidesPerView: "auto",
             slidesPerView: "auto",
             centeredSlides: true,
